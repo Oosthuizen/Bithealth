@@ -12,7 +12,7 @@
 				<div class="card">
 					<div class="header">
                         <h4 class="title">Camera</h4>
-                        <!--web cam function here-->
+                       
                     </div>	
 				</div>
 			</div>
