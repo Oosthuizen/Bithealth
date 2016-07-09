@@ -23,20 +23,14 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="pe-7s-diamond"></i>
-                        <p>Points</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
                         <i class="pe-7s-graph"></i>
                         <p>Progress</p>
                     </a>
                 </li>
                 <li>
-                    <a href="bmi.php">
-                        <i class="pe-7s-science"></i>
-                        <p>User Details</p>
+                    <a href="#">
+                        <i class="pe-7s-diamond"></i>
+                        <p>Points</p>
                     </a>
                 </li>
                 <li>
