@@ -36,7 +36,7 @@
                 <li>
                     <a href="bmi.php">
                         <i class="pe-7s-science"></i>
-                        <p>BMI</p>
+                        <p>User Details</p>
                     </a>
                 </li>
                 <li>

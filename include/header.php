@@ -50,6 +50,10 @@
 <!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 <script src="assets/js/demo.js"></script>
 
+<!--   Scrolling CSS       -->
+<link href="css/scrolling-nav.css" rel="stylesheet">
+<link href="assets/css/runningRoute.css" rel="stylesheet">
+
 <?php
     $includeLogFunctionality = true;
     include __DIR__."/HelperFunctions.php";
