@@ -198,24 +198,5 @@
     </div> <!-- container-fluid end-->
 </div> <!--content end-->
 <!-- end of content-->
-
-<footer class="footer">
-    <div class="container-fluid">
-        
-        <p class="copyright pull-right">
-            &copy; 2016 <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
-        </p>
-    </div>
-</footer>
-
-</div> <!--main panel end-->
-</div> <!--wrapper end-->
-
-
-</body>
-
-
-</html>
-
 <?php include.__DIR__."/include/footer.php"; ?>
 <?php include.__DIR__."/include/closeHTML.php"; ?>
