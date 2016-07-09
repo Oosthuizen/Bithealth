@@ -40,9 +40,9 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="maps.php">
                         <i class="pe-7s-map-marker"></i>
-                        <p>Running routes</p>
+                        <p>Maps</p>
                     </a>
                 </li>
                 <li>
