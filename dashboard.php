@@ -8,21 +8,6 @@
 <!--content starts here-->
 <div class="content" >
     <div class="container-fluid" >
-        <!--display weather and date-->
-        <div class="row">
-            <div class="col-xs-6">
-                <!--date here-->
-                <h3 id="dateBox">
-                    <script type="text/javascript">
-                        document.getElementById("dateBox").innerHTML = new Date().toDateString();
-                    </script>
-                </h3>
-            </div>
-            <div class="col-xs-6">
-                <h3 class="pull-right"><i class="pe-7s-sun"></i> 19 C</h3>
-            </div>
-        </div>
-
         <div class="row">
             <div class="col-sm-8">
                 <div class="card">
@@ -33,8 +18,8 @@
                         <div class="content">
                             <div class="author">
                                     <img class="avatar border-gray" src="assets/img/running.jpg" alt="..."/>
-
-                                      <h4 class="title" style="padding-bottom:10px"> <?php HelperFunctions::getUsername() ?> <br /></h4>
+                                        <!--user name here-->
+                                      <h4 class="title" style="padding-bottom:10px"> <br /></h4>
 
                                 <h1 class="title" style="padding-bottom: 50px"> current progress </h1>
                                 <h1 class="title" style="padding-bottom: 25px"> some motivation shit</h1>

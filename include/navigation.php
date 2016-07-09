@@ -66,13 +66,24 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- display username-->
-                <a class="navbar-brand" href="#">Welcome <?php HelperFunctions::getUsername() ?> </a>
+<!-- ************ display username-->
+                <a class="navbar-brand" href="#">Welcome Jihyun Byun</a>
             </div>
             <div class="collapse navbar-collapse">
              <ul class="nav navbar-nav navbar-right">
+<!-- ************* display weather-->
                     <li>
-                        <a href="#">
+                        <a><i class="pe-7s-sun"></i> 19 C</a>
+                    </li>
+                    <li>
+                        <a id = "dateBox">
+                            <script type="text/javascript">
+                            document.getElementById("dateBox").innerHTML = new Date().toDateString();
+                            </script>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="login.php">
                             Log out
                         </a>
                     </li>
