@@ -3,7 +3,7 @@ require_once("/ajax/jqSajax.class.php");
 session_start();
 
 function DoLogin($username,$Password){
-
+    //for later
     $url = "http://localhost:53172/Surf.svc/Login/$username/$Password";
     $client = curl_init($url);
     $data = "username=$username&pwd=$Password";
@@ -38,7 +38,7 @@ $ajax->processClientReq();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surf Check | Login</title>
+    <title>BitHealth | Login</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
 
@@ -50,11 +50,11 @@ $ajax->processClientReq();
     <script src="ajax/jquery.validate.min.js"></script>
 
     <!-- Login validation -->
-    <script> src="js/plugins/ValidationFormScript.js"</script>
+    <script src="js/plugins/ValidationFormScript.js"></script>
 
 </head>
 
-    <body class="gray-bg" background="img/backround.jpg">
+    <body class="gray-bg">
 
     <div class="middle-box text-center loginscreen animated fadeInDown">
         <div class=ibox-content middle-box text-center loginscreen  animated fadeInDown">
@@ -100,7 +100,7 @@ $ajax->processClientReq();
                 var password = $('#password').val();
                 var result = ($.x_DoLogin(email,password));
                 if (result == "1"){
-                    window.location.replace("Home.php");
+                    window.location.replace("dashboard.php");
                 }
                 else {
                     console.log(result);
