@@ -41,7 +41,7 @@ class HelperFunctions {
 
         //Set the default database
         if (!self::$host || !self::$user || !self::$password || !self::$database) {
-            self::setDatabaseParameters("localhost","root","","QNOT_DB");
+            self::setDatabaseParameters("localhost","root","","");
         }
 
         //import the relevant script for rendering elements based on the user type
@@ -79,7 +79,7 @@ class HelperFunctions {
         }
         //Set the default database
         if (!self::$host || !self::$user || !self::$password || !self::$database) {
-            self::setDatabaseParameters("localhost","root","","QNOT_DB");
+            self::setDatabaseParameters("localhost","root","","");
         }
     }
 

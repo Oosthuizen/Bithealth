@@ -2,8 +2,8 @@
 	$title = "BitHealth | BMI";
 ?>
 
-<?php include_once.__DIR__."/include/openHTML.php"; ?>
-<?php include_once.__DIR__."/include/navigation.php"; ?>
+<?php include __DIR__."/include/openHTML.php"; ?>
+<?php include __DIR__."/include/navigation.php"; ?>
 
 <div class="content">
 	<div class="container-fluid">
