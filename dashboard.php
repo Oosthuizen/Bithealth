@@ -2,8 +2,8 @@
     $title = "BitHealth | DASHBOARD";
 ?>
 
-<?php include.__DIR__."/include/openHTML.php"; ?>
-<?php include.__DIR__."/include/navigation.php"; ?>
+<?php include_once.__DIR__."/include/openHTML.php"; ?>
+<?php include_once.__DIR__."/include/navigation.php"; ?>
 
 <!--content starts here-->
 <div class="content" >
@@ -34,7 +34,7 @@
                             <div class="author">
                                     <img class="avatar border-gray" src="assets/img/running.jpg" alt="..."/>
 
-                                      <h4 class="title" style="padding-bottom:10px">jonsnow@knownothing.com<br /></h4>
+                                      <h4 class="title" style="padding-bottom:10px"> <?php .HelperFunctions::getUsername(). ?> <br /></h4>
 
                                 <h1 class="title" style="padding-bottom: 50px"> current progress </h1>
                                 <h1 class="title" style="padding-bottom: 25px"> some motivation shit</h1>
@@ -198,5 +198,5 @@
     </div> <!-- container-fluid end-->
 </div> <!--content end-->
 <!-- end of content-->
-<?php include.__DIR__."/include/footer.php"; ?>
-<?php include.__DIR__."/include/closeHTML.php"; ?>
+<?php include_once.__DIR__."/include/footer.php"; ?>
+<?php include_once.__DIR__."/include/closeHTML.php"; ?>
