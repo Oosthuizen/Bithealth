@@ -5,34 +5,31 @@
 <?php include __DIR__."/include/openHTML.php"; ?>
 <?php include __DIR__."/include/navigation.php"; ?>
 
-<!--content starts here-->
 <div class="content" >
     <div class="container-fluid" >
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-9">
                 <div class="card">
                     <div class="card card-user">
-                        <div class="image">
-                            
+                        <div class="image" style="background-color: #1F77D0; opacity: 0.7">
                         </div>
                         <div class="content">
                             <div class="author">
-                                    <img class="avatar border-gray" src="assets/img/running.jpg" alt="..."/>
-                                        <!--user name here-->
-                                      <h4 class="title" style="padding-bottom:10px"> <br /></h4>
-
-                                <h1 class="title" style="padding-bottom: 50px"> current progress </h1>
-                                <h1 class="title" style="padding-bottom: 25px"> some motivation shit</h1>
+                                <img class="avatar border-gray" src="assets/img/running.jpg" alt="..."/>
+<!-- *****************************user name, age, gender here-->
+                                <h4 class="title" style="padding-bottom:10px"> Jihyun, 22 <i class="pe-7s-female" style="font-size: 25px; margin-left: 3px; line-height: 10px; width: 25px;"></i><br />
+                                    <small>Midrand, Gauteng, South Africa</small>
+                                </h4>
+                                <h1 class="title" style="padding-bottom: 50px; padding-top: 25px"> current progress </h1>
+                                <p class="description text-center" style="font-style: italic;">You don't get the ass you want by sitting on it.</p>
                             </div>
-                            
-                               
                         </div>
                     </div>
                 </div>
             </div> <!--col end-->
 
-            <!--chart here-->
-            <div class="col-sm-4">
+<!-- ********goals here-->
+            <div class="col-sm-3">
                 <div class="card ">
                     <div class="header">
                         <h4 class="title">Today's Goals</h4>
@@ -47,15 +44,7 @@
                                                         <input type="checkbox" value="" data-toggle="checkbox">
                                                     </label>
                                                 </td>
-                                                <td>Sign contract for "What are conference organizers afraid of?"</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </td>
+                                                <td>Run 4km</td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -63,15 +52,7 @@
                                                         <input type="checkbox" value="" data-toggle="checkbox" checked="">
                                                     </label>
                                                 </td>
-                                                <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </td>
+                                                <td>Eat more green</td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -79,16 +60,7 @@
                                                         <input type="checkbox" value="" data-toggle="checkbox" checked="">
                                                     </label>
                                                 </td>
-                                                <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit</td>
-
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </td>
+                                                <td>check bmi</td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -96,15 +68,7 @@
                                                         <input type="checkbox" value="" data-toggle="checkbox">
                                                     </label>
                                                 </td>
-                                                <td>Unfollow 5 enemies from twitter</td>
-                                                <td class="td-actions text-right">
-                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
-                                                        <i class="fa fa-edit"></i>
-                                                    </button>
-                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                        <i class="fa fa-times"></i>
-                                                    </button>
-                                                </td>
+                                                <td>Unfollow 5 unhealthy people on twitter</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -112,23 +76,25 @@
                                 <hr>
                                 <div class="footer">
                                     <div class="stats">
-                                        <i class="fa fa-clock-o"></i>
+ <!--*******************************update info here-->                                       
+                                        <i class="fa fa-clock-o"></i> Updated 2 minutes ago
                                     </div>
                                 </div>
                     </div>
                 </div><!--card end-->
             </div> <!--col end-->
-        </div>
+        </div> <!-- row end-->
 
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
                     <div class="header">
-                        <h4 class="title">Email Statistics</h4>
-                        <p class="category">Last Campaign Performance</p>
+                        <h4 class="title">Statistics</h4>
+                        <p class="category">Last Performance</p>
                     </div>
                     <div class="content">
-                        <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
+                        <!--chart.js chart here-->
+                        <canvas id="bmiChart" height="100px"></canvas>
 
                         <div class="footer">
                             <div class="legend">

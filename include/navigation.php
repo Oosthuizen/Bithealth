@@ -13,7 +13,6 @@
             <div class="logo">
                 <a class="simple-text" style="letter-spacing: 5px">Bit | health</a>
             </div>
-
             <ul class="nav">
                 <li>
                     <a href="dashboard.php">
@@ -40,7 +39,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="gym.php">
                         <i class="pe-7s-gym"></i>
                         <p>Gym</p>
                     </a>
@@ -77,6 +76,7 @@
                         </a>
                     </li>
                     <li>
+<!-- ******************* log out-->
                         <a href="login.php">
                             Log out
                         </a>

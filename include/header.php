@@ -35,8 +35,9 @@
 <!--  Checkbox, Radio & Switch Plugins -->
 <script src="assets/js/bootstrap-checkbox-radio-switch.js"></script>
 
-<!--  Charts Plugin -->
-<script src="assets/js/chartist.min.js"></script>
+<!-- ChartJS-->
+<script src="assets/js/Chart.min.js"></script>
+<script src="assets/js/chartjs-demo.js"></script>
 
 <!--  Notifications Plugin    -->
 <script src="assets/js/bootstrap-notify.js"></script>
@@ -57,5 +58,4 @@
 <?php
     $includeLogFunctionality = true;
     include __DIR__."/HelperFunctions.php";
-    //HelperFunctions::startOrResumeSession($includeLogFunctionality); //set to true to enable log
 ?>
