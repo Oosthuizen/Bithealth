@@ -34,10 +34,7 @@ $ajax->processClientReq();
 //-----------------------------------------------------------
 
 ?>
-<!DOCTYPE html>
-<html>
-
-<head>
+</head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BitHealth | Login</title>
@@ -61,27 +58,28 @@ $ajax->processClientReq();
 </head>
     <body class="login-background">
     <div class="card login-block">
-        <div class="card-block ">
-                <image alt="logo" src="assets/img/logo.png" style="width: 150px; height: 150px"></image>
+        <div class="card-block">
+                <image alt="logo" src="assets/img/logo.png" style="max-width: 50%; height: auto" id="img-logo"></image>
                 <h3>Welcome to Bithealth! :)</h3>
                 <form role="form" id="form1">
-                    <div class="form-group col-lg-12">
-                        <input id="Email" name="email" type="text" class="form-control input-md" placeholder="Email">
+                    <div class="form-group" style="max-width: 350px; margin-left: 17.5px;">
+                        <input id="Email" name="email" type="text" class="form-control" placeholder="Email">
                     </div>
-                    <div class="form-group col-lg-12">
+                    <div class="form-group" style="max-width: 350px; margin-left: 17.5px;">
                         <input id="password" type="password" class="form-control" placeholder="Password">
                     </div>
-                    <button id="Submit" type="button" class="btn btn-primary block full-width m-b" style="margin-bottom: 10px">Login</button>
+                    <button id="Submit" type="button" class="btn btn-primary block" style="margin-bottom: 10px; background-color: #FFFFFF">Login</button>
                 </form>
         </div>
     </div>
 
+
         <!-- Mainly scripts -->
         <script src="assets/js/jquery-2.1.1.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+
 
     <!-- Toastr -->
-    <script src="assets/js/plugins/toastr/toastr.min.js"></script>
+    <script src="js/plugins/toastr/toastr.min.js"></script>
 
         <script type="text/javascript">
             <?php
@@ -116,7 +114,6 @@ $ajax->processClientReq();
                 }
             });
         </script>
-
     </body>
 
 </html>
