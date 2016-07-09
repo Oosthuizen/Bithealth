@@ -3,7 +3,7 @@
     <div class="container-fluid">
         
         <p class="copyright pull-right">
-            &copy; 2016 <a href="#">BIT HEALTH</a>, made with love for a better world
+            &copy; 2016 <a href="#">BITHEALTH</a>, made with love for a healthier world.
         </p>
     </div>
 </footer>

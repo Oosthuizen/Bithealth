@@ -1,3 +1,5 @@
+<?php include __DIR__."/include/openHTML.php"; ?>
+
 <?php
 require_once("/ajax/jqSajax.class.php");
 session_start();
@@ -40,57 +42,48 @@ $ajax->processClientReq();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BitHealth | Login</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Toastr style -->
-    <link href="css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/toastr/toastr.min.css" rel="stylesheet">
 
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+
+    <link href="assets/css/login-register.css" rel="stylesheet">
+    <link href="assets/css/login-css.css" rel="stylesheet">
+
+    <script src="assets/js/login-register.js"></script>
     <script src="ajax/jquery.validate.min.js"></script>
+
 
     <!-- Login validation -->
     <script src="js/plugins/ValidationFormScript.js"></script>
 
 </head>
-
-    <body class="gray-bg">
-
-    <div class="middle-box text-center loginscreen animated fadeInDown">
-        <div class=ibox-content middle-box text-center loginscreen  animated fadeInDown">
-            <div>
-                <div>
-
-                    <h1 class="logo-name">SC</h1>
-
-                </div>
-                <h3>Welcome to Surf Check</h3>
-                <p>Login to see surf conditions</p>
-                <form class="m-t" role="form" id="form1">
-                    <div class="form-group">
-                            <input id="Email" name="email" type="text" class="form-control input-md" placeholder="Email">
+    <body class="login-background">
+    <div class="card login-block">
+        <div class="card-block ">
+                <image alt="logo" src="assets/img/logo.png" style="width: 150px; height: 150px"></image>
+                <h3>Welcome to Bithealth! :)</h3>
+                <form role="form" id="form1">
+                    <div class="form-group col-lg-12">
+                        <input id="Email" name="email" type="text" class="form-control input-md" placeholder="Email">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group col-lg-12">
                         <input id="password" type="password" class="form-control" placeholder="Password">
                     </div>
-                    <button id="Submit" type="button" class="btn btn-primary block full-width m-b">Login</button>
-
+                    <button id="Submit" type="button" class="btn btn-primary block full-width m-b" style="margin-bottom: 10px">Login</button>
                 </form>
-                <p class="m-t"> <small>Service Computing : Mario Da Silva &copy; 2015</small> </p>
-            </div>
         </div>
-        </div>
+    </div>
 
         <!-- Mainly scripts -->
-        <script src="js/jquery-2.1.1.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery-2.1.1.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- Toastr -->
-    <script src="js/plugins/toastr/toastr.min.js"></script>
+    <script src="assets/js/plugins/toastr/toastr.min.js"></script>
 
         <script type="text/javascript">
-
-
             <?php
             //Prints the js required for the functions/methods created in php.
             $ajax->showJs();
@@ -123,8 +116,6 @@ $ajax->processClientReq();
                 }
             });
         </script>
-
-
 
     </body>
 

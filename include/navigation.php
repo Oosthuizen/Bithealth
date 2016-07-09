@@ -36,7 +36,7 @@
                 <li>
                     <a href="maps.php">
                         <i class="pe-7s-map-marker"></i>
-                        <p>Maps</p>
+                        <p>Running Routes</p>
                     </a>
                 </li>
                 <li>

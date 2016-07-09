@@ -1,0 +1,22 @@
+.login-block
+{
+    width: 30%;
+    height:auto;
+    margin: 100px auto;
+    text-align: center;
+    border: 1px;
+    border-radius: 2.2em;
+    padding-top: 10px;
+    background:  whitesmoke;
+}
+
+.login-background
+{
+    background: url(../img/Runningv2.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 90%;
+    width: auto;
+
+}
