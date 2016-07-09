@@ -53,5 +53,5 @@
 <?php
     $includeLogFunctionality = true;
     include __DIR__."/HelperFunctions.php";
-    HelperFunctions::startOrResumeSession($includeLogFunctionality); //set to true to enable log
+    //HelperFunctions::startOrResumeSession($includeLogFunctionality); //set to true to enable log
 ?>

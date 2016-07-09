@@ -29,5 +29,5 @@
 	</div> <!--end of container-fluid-->
 </div> <!--end of content-->
 
-<?php include_once.__DIR__."/include/footer.php"; ?>
-<?php include_once.__DIR__."/include/closeHTML.php"; ?>
+<?php include __DIR__."/include/footer.php"; ?>
+<?php include __DIR__."/include/closeHTML.php"; ?>

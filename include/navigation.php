@@ -15,38 +15,38 @@
             </div>
 
             <ul class="nav">
-                <li class="active">
-                    <a href="dashboard.html">
+                <li>
+                    <a href="dashboard.php">
                         <i class="pe-7s-display2"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
                 <li>
-                    <a href="table.html">
+                    <a href="#">
                         <i class="pe-7s-diamond"></i>
                         <p>Points</p>
                     </a>
                 </li>
                 <li>
-                    <a href="typography.html">
+                    <a href="#">
                         <i class="pe-7s-graph"></i>
                         <p>Progress</p>
                     </a>
                 </li>
                 <li>
-                    <a href="bmi.html">
+                    <a href="bmi.php">
                         <i class="pe-7s-science"></i>
                         <p>BMI</p>
                     </a>
                 </li>
                 <li>
-                    <a href="maps.html">
+                    <a href="#">
                         <i class="pe-7s-map-marker"></i>
                         <p>Running routes</p>
                     </a>
                 </li>
                 <li>
-                    <a href="notifications.html">
+                    <a href="#">
                         <i class="pe-7s-gym"></i>
                         <p>Gym</p>
                     </a>
