@@ -1,5 +1,3 @@
-<?php include __DIR__."/include/openHTML.php"; ?>
-
 <?php
 require_once("/ajax/jqSajax.class.php");
 session_start();
@@ -51,6 +49,8 @@ $ajax->processClientReq();
     <script src="assets/js/login-register.js"></script>
     <script src="ajax/jquery.validate.min.js"></script>
 
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Login validation -->
     <script src="js/plugins/ValidationFormScript.js"></script>
