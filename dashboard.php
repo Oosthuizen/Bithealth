@@ -20,10 +20,21 @@
                                 <h4 class="title" style="padding-bottom:10px"> Jihyun, 22 <i class="pe-7s-female" style="font-size: 25px; margin-left: 3px; line-height: 10px; width: 25px;"></i><br />
                                     <small>Midrand, Gauteng, South Africa</small>
                                 </h4>
-                                <h1 class="title" style="padding-bottom: 50px; padding-top: 25px"> current progress </h1>
+<!-- ***************************bmi value and color needs to change according to bmi-->
+                                <h1 class="title" style="padding-bottom: 50px; padding-top: 25px"> Your BMI is <b style="color: green">20.45 kg/m<sup>2</sup></b>  </h1>
                                 <p class="description text-center" style="font-style: italic;">You don't get the ass you want by sitting on it.</p>
+                            </div> <!--author end-->
+
+                            <hr />
+                            <div class="footer">
+                                <div class="legend">
+                                    <h4 class="title"><small>BMI Legend</small></h4>
+                                    <i class="fa fa-circle text-success"></i>Normal
+                                    <i class="fa fa-circle text-warning"></i>Underweight/Overweight
+                                    <i class="fa fa-circle text-danger"></i>Obese
+                                </div>
                             </div>
-                        </div>
+                        </div> <!-- content end-->
                     </div>
                 </div>
             </div> <!--col end-->
@@ -86,10 +97,10 @@
         </div> <!-- row end-->
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-sm-12">
                 <div class="card">
                     <div class="header">
-                        <h4 class="title">Statistics</h4>
+                        <h4 class="title">BMI statistics</h4>
                         <p class="category">Last Performance</p>
                     </div>
                     <div class="content">
@@ -109,42 +120,7 @@
                         </div>
                     </div>
                 </div> 
-            </div> <!--first col end-->
-
-             <div class="col-md-4">
-                <div class="card">
-                    <div class="header">
-                        <h4 class="title">Users Behavior</h4>
-                        <p class="category">24 Hours performance</p>
-                    </div>
-                    <div class="content">
-                        <div id="chartHours" class="ct-chart"></div>
-                        <div class="footer">
-                            <div class="legend">
-                                <i class="fa fa-circle text-info"></i> Open
-                                <i class="fa fa-circle text-danger"></i> Click
-                                <i class="fa fa-circle text-warning"></i> Click Second Time
-                            </div>
-                            <hr>
-                            <div class="stats">
-                                <i class="fa fa-history"></i> Updated 3 minutes ago
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!--second col end-->
-
-             <div class="col-md-4">
-                <div class="card">
-                    <div class="header">
-                        <h4 class="title">other chart shit</h4>
-                        <p class="category">put sth else</p>
-                    </div>
-                    <div class="content">
-                        
-                    </div>
-                </div>
-            </div> <!--thrid col end-->
+            </div> <!-- col end-->
         </div> <!--second row end-->
     </div> <!-- container-fluid end-->
 </div> <!--content end-->
