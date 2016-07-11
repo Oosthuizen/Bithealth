@@ -34,14 +34,14 @@ $(function () {
     };
 
 
-    var ctx = document.getElementById("gymChart").getContext("2d");
+    var ctx = document.getElementById("activityChart").getContext("2d");
     var myNewChart = new Chart(ctx).Line(lineData, lineOptions);
-/*
+
     var barData = {
-        labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        labels: ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"],
         datasets: [
             {
-                label: "My First dataset",
+                label: "ideal water dataset",
                 fillColor: "rgba(220,220,220,0.5)",
                 strokeColor: "rgba(220,220,220,0.8)",
                 highlightFill: "rgba(220,220,220,0.75)",
@@ -49,7 +49,7 @@ $(function () {
                 data: [65, 59, 80, 81, 56, 55, 40]
             },
             {
-                label: "My Second dataset",
+                label: "actual water dataset",
                 fillColor: "rgba(26,179,148,0.5)",
                 strokeColor: "rgba(26,179,148,0.8)",
                 highlightFill: "rgba(26,179,148,0.75)",
@@ -72,9 +72,9 @@ $(function () {
     }
 
 
-    var ctx = document.getElementById("barChart").getContext("2d");
+    var ctx = document.getElementById("waterChart").getContext("2d");
     var myNewChart = new Chart(ctx).Bar(barData, barOptions);
-
+/*
     var doughnutData = [
         {
             value: 300,
