@@ -1,6 +1,8 @@
 $(function () {
 
-    var lineData = {
+
+
+  /*  var lineData = {
         labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         datasets: [
             {
@@ -36,8 +38,11 @@ $(function () {
 
     var ctx = document.getElementById("gymChart").getContext("2d");
     var myNewChart = new Chart(ctx).Line(lineData, lineOptions);
-/*
-    var barData = {
+
+
+*/
+
+   var barData = {
         labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         datasets: [
             {
@@ -72,10 +77,13 @@ $(function () {
     }
 
 
-    var ctx = document.getElementById("barChart").getContext("2d");
-    var myNewChart = new Chart(ctx).Bar(barData, barOptions);
+    
 
-    var doughnutData = [
+    var run = document.getElementById("runningChart").getContext("2d");
+    var myNewChart = new Chart(run).Bar(barData, barOptions);
+
+/*
+   var doughnutData = [
         {
             value: 300,
             color: "#a3e1d4",
