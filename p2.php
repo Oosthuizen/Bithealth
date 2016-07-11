@@ -30,7 +30,7 @@ $title = "BitHealth | title here";
                         <h4 class="title">Overall Running Distance</h4>
                     </div>
                     <div class="content">
-                        <canvas id="runningChart" height="100px"></canvas>
+                        <canvas id="activityChart" height="100px"></canvas>
                     </div>
                 </div> <!-- end front panel -->
 
